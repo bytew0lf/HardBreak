@@ -1,10 +1,10 @@
-# Voltage Glitiching
+# Voltage Glitching
 
 ## **Theory**
 
 Voltage glitching is a type of fault injection attack where an attacker manipulates the power supply voltage of a system to induce errors in its operations. It exploits the vulnerability of electronic circuits, particularly when they are under abnormal operating conditions. By temporarily lowering or increasing the supply voltage at critical moments, attackers can disrupt the normal execution flow of a processor or microcontroller. This can lead to skipping instructions, bypassing security checks, or triggering unintended behavior in the system. Voltage glitching is especially effective in embedded systems, as they often lack sophisticated protection mechanisms against such physical attacks.
 
-The effectiveness of voltage glitching depends on the timing and precision of the glitch. Well-timed glitches can cause subtle and hard-to-detect faults that compromise system integrity. These attacks often require physical access to the device, as the power supply needs to be manipulated directly.
+The effectiveness of voltage glitching depends on the timing (offset) and precision of the glitch. Well-timed glitches can cause subtle and hard-to-detect faults that compromise system integrity. These attacks often require physical access to the device, as the power supply needs to be manipulated directly.
 
 ## Usage
 
@@ -15,7 +15,7 @@ The effectiveness of voltage glitching depends on the timing and precision of th
 * For example, an attacker targeting a microcontroller running a protected bootloader might attempt voltage glitching to bypass code signing checks:
   * First, they monitor the power consumption patterns of the device during the boot process to identify the moment when security checks occur.
   * Next, they configure the voltage glitcher to induce a power drop at the identified time window.
-  * If successful, the security check fails, and the system proceeds with unauthorized code execution.
+  * If successful, the security check fails, and the system proceeds with unauthorized code execution.&#x20;
 
 Always try to desolder the target chip from the actual PCB, as components like capacitors will weaken the glitch:
 
@@ -35,5 +35,5 @@ Always try to desolder the target chip from the actual PCB, as components like c
 
 ## Resources
 
-[https://hackaday.com/2024/06/03/glitching-an-atmega328p-has-never-been-simpler/](https://hackaday.com/2024/06/03/glitching-an-atmega328p-has-never-been-simpler/)\
-[https://www.ledger.com/academy/series/enter-the-donjon/episode-4-power-glitch-attack](https://www.ledger.com/academy/series/enter-the-donjon/episode-4-power-glitch-attack)
+* [Glitching An ATMega328P Has Never Been Simpler](https://hackaday.com/2024/06/03/glitching-an-atmega328p-has-never-been-simpler/)
+* [Episode 4 – Power Glitch Attack](https://www.ledger.com/academy/series/enter-the-donjon/episode-4-power-glitch-attack)

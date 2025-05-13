@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to HardBreak](README.md)
+* [HardBreak - Hardware Hacking Wiki](README.md)
 
 ## Introduction
 
@@ -20,7 +20,8 @@
       * [Logic Analyzer](hardware-hacking/basics/tools/hardware-tools/logic-analyzer/README.md)
         * [Saleae Logic Analyzer](hardware-hacking/basics/tools/hardware-tools/logic-analyzer/saleae-logic-analyzer.md)
       * [Open-Source Tools](hardware-hacking/basics/tools/hardware-tools/open-source-tools/README.md)
-        * [Bus Pirate](hardware-hacking/basics/tools/hardware-tools/open-source-tools/bus-pirate.md)
+        * [Bus Pirate v3.6](hardware-hacking/basics/tools/hardware-tools/open-source-tools/bus-pirate.md)
+        * [Bus Pirate 5](hardware-hacking/basics/tools/hardware-tools/open-source-tools/bus-pirate-5.md)
         * [GoodFET](hardware-hacking/basics/tools/hardware-tools/open-source-tools/goodfet.md)
       * [Multimeters & Oscilloscopes](hardware-hacking/basics/tools/hardware-tools/multimeters-and-oscilloscopes.md)
       * [JTAG and SWD Debuggers](hardware-hacking/basics/tools/hardware-tools/jtag-and-swd-debuggers/README.md)
@@ -35,7 +36,10 @@
       * [flashrom](hardware-hacking/basics/tools/software-tools/flashrom.md)
       * [Ghidra](hardware-hacking/basics/tools/software-tools/ghidra.md)
       * [OpenOCD](hardware-hacking/basics/tools/software-tools/openocd.md)
+      * [Mitmrouter](hardware-hacking/basics/tools/software-tools/mitmrouter.md)
   * [Common Hardware Components](hardware-hacking/basics/common-hardware-components.md)
+  * [Firmware Extraction Methods](hardware-hacking/basics/firmware-extraction-methods.md)
+  * [Ethics](hardware-hacking/basics/ethics.md)
 * [Reconnaissance](hardware-hacking/reconnaissance/README.md)
   * [Closed device](hardware-hacking/reconnaissance/closed-device/README.md)
     * [OSINT (search the web)](hardware-hacking/reconnaissance/closed-device/osint-search-the-web.md)
@@ -57,8 +61,9 @@
     * [Extract Firmware using JTAG/SWD](hardware-hacking/interface-interaction/jtag-swd/extract-firmware-using-jtag-swd.md)
   * [VE.Direct](hardware-hacking/interface-interaction/ve.direct.md)
 * [Bypassing Security](hardware-hacking/bypassing-security/README.md)
-  * [Voltage Glitiching](hardware-hacking/bypassing-security/voltage-glitiching/README.md)
-    * [Example: LPC1768](hardware-hacking/bypassing-security/voltage-glitiching/example-lpc1768.md)
+  * [Voltage Glitching](hardware-hacking/bypassing-security/voltage-glitching/README.md)
+    * [Example: LPC1768](hardware-hacking/bypassing-security/voltage-glitching/example-lpc1768.md)
+  * [Electromagnetic Fault Injection](hardware-hacking/bypassing-security/electromagnetic-fault-injection/README.md)
 * [Analyze Firmware](hardware-hacking/analyze-firmware.md)
 
 ## Network Analysis

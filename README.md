@@ -19,13 +19,31 @@ layout:
     visible: true
 ---
 
-# Welcome to HardBreak
+# HardBreak - Hardware Hacking Wiki
 
-_**This page is a free and open-source wiki about hardware hacking!**_
+_**This page is a free and collaborative wiki about hardware hacking!**_
 
 <figure><img src=".gitbook/assets/image (16).png" alt="" width="155"><figcaption><p>HardBreak Wiki</p></figcaption></figure>
 
 The goal of HardBreak ([https://www.hardbreak.wiki/](https://www.hardbreak.wiki/)) is to collect knowledge about Hardware Hacking / IoT hacking in one place. There are many great blogs about Hardware Hacking, but it is a rather unpleasant experience to search through multiple blogs in different formats to find the information you need. HardBreak aims to organize all information in one accessible and easy-to-use platform.
+
+## Discord
+
+**🎉 We just launched our HardBreak Discord Server! 🎉**
+
+Join us here 👉 [**https://discord.gg/AWVsKxJHvQ**](https://discord.gg/AWVsKxJHvQ)
+
+If you:
+
+* Want to discuss hardware hacking and IoT security
+* Share the project you are working on
+* Have feedback or requests for new content on our wiki
+
+Come be a part of our growing community of hardware hackers⚡
+
+{% hint style="success" %}
+Hey! I’m Jonas Rosenberger, the creator of HardBreak. I’d love to hear your feedback or help out with any projects you’re working on. Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/jonas-rosenberger-3276b1164/) or Discord (f\_3nter)!
+{% endhint %}
 
 ## Overview
 
@@ -35,7 +53,7 @@ The goal of HardBreak ([https://www.hardbreak.wiki/](https://www.hardbreak.wiki/
     * Essential tools to start with
     * [Methodology](introduction/quickstart.md)
     * A hands on [Case Study](introduction/case-study-led-to-a-cve-update/general-case-study.md)
-* [Hardware Hacking](/hardware-hacking/introduction.md)
+* [Hardware Hacking](hardware-hacking/introduction.md)
   * Top down approach to follow and investigate your device
     * [Basics](hardware-hacking/basics/) ([Hardware Tools](hardware-hacking/basics/tools/hardware-tools/), [Software](hardware-hacking/basics/tools/software-tools/) and [Common Hardware Components](hardware-hacking/basics/common-hardware-components.md))
   * [Reconnaissance](hardware-hacking/reconnaissance/) ([OSINT](hardware-hacking/reconnaissance/closed-device/osint-search-the-web.md), [Board Analysis](hardware-hacking/reconnaissance/opened-device/board-analysis.md))
@@ -44,7 +62,7 @@ The goal of HardBreak ([https://www.hardbreak.wiki/](https://www.hardbreak.wiki/
       * How to [Identify](hardware-hacking/interface-interaction/uart/uart-from-start-to-finish.md) and use those protocols
       * [extract firmware](hardware-hacking/interface-interaction/uart/extract-firmware-using-uart.md) using debug protocols
   * [Bypass Security Mechanisms](hardware-hacking/bypassing-security/)
-    * Introduction to [Voltage Glichting](hardware-hacking/bypassing-security/voltage-glitiching/)
+    * Introduction to [Voltage Glitching](hardware-hacking/bypassing-security/voltage-glitching/)
   * How to [analyze Firmware](hardware-hacking/analyze-firmware.md)
 * [Network Analysis](network-analysis/introduction.md)
   * How to analyze protocols: [Reverse Engineering ](network-analysis/protocols/application-layer/proprietary-protocols/parrot-anafi-drone-reverse-engineering.md)a drone
